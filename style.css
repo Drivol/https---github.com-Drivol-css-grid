@@ -23,6 +23,7 @@ nav{
     list-style: none;
     display: flex;
     gap: 2em;
+    margin: 2px;
 
 }
 
@@ -85,10 +86,6 @@ body {
     grid-row: 1; 
 }
 
-.item4 {
-    grid-column: 1; 
-    grid-row: 2; 
-}
 
 .item5 {
     grid-column: 2; 
@@ -100,17 +97,17 @@ body {
     grid-row: 2 
 }
 
-.item7 {
-    grid-column: 1;
-    grid-row: 3; 
-}
-
-.item8 {
-    grid-column: 2; 
-    grid-row: 3; 
-}
-
 .item9 {
     grid-column: 1 / span 3; 
     grid-row: 3; 
 }   
+
+li:hover{
+    background-color: rgb(104, 106, 107);
+    border-radius: 5%;
+    cursor: pointer;
+    margin: 2PX;
+
+
+}
+
